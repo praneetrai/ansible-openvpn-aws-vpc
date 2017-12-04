@@ -5,14 +5,14 @@ ubuntu_openvpn_pkgs:
   - udev
   - dnsmasq
 
-openvpn_key_country:  "PK"
-openvpn_key_province: "Punjab"
-openvpn_key_city: "Lahore"
-openvpn_key_org: "Tendo Pvt ltd"
+openvpn_key_country:  "IN"
+openvpn_key_province: "Karnataka"
+openvpn_key_city: "Bangalore"
+openvpn_key_org: "OON GlobalCom Pvt Ltd"
 openvpn_key_ou: "IT Department"
 openvpn_days_valid: "1825"
 openssl_request_subject: "/C={{ openvpn_key_country }}/ST={{ openvpn_key_province }}/L={{ openvpn_key_city }}/O={{ openvpn_key_org }}/OU={{ openvpn_key_ou }}"
-openvpn_key_size: "2048"
+openvpn_key_size: "4096"
 openvpn_cipher: "BF-CBC"
 openvpn_auth_digest: "SHA1"
 openvpn_path: "/etc/openvpn"
